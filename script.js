@@ -3,7 +3,7 @@ const navBtn = document.getElementById("menu-btn");
 const closeBtn = document.getElementById("close-btn");
 
 navBtn.addEventListener("click", () => {
-  navShow.classList.toggle("show");
+  navShow.classList.add("show");
 });
 
 closeBtn.addEventListener("click", () => {

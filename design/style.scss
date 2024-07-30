@@ -363,6 +363,18 @@ footer {
     }
 }
 
+.nav-menu {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.menu-button-nav{
+  button {
+    @include buttonStyle;
+  }
+}
+
 .overflow {
     overflow: hidden;
 }
@@ -372,4 +384,9 @@ footer {
     opacity: 1;
     top: 20%;
     left: 37%;
+}
+
+
+.nav-show {
+  display: block;
 }
