@@ -240,8 +240,8 @@ footer .footer-container .footer-el img {
   left: 0;
   top: 0;
   background-color: #522258;
-  height: 200%;
-  width: 100%;
+  height: auto;
+  width: 102%;
   z-index: 2;
   transition: 0.9s all ease;
 }
@@ -353,6 +353,9 @@ footer .footer-container .footer-el img {
   font-size: 1.5rem;
 }
 
+.menu-button-nav {
+  margin: 20px auto;
+}
 .menu-button-nav button {
   border: 2px solid white;
   border-radius: 20px;
@@ -375,6 +378,14 @@ footer .footer-container .footer-el img {
   opacity: 1;
   top: 20%;
   left: 37%;
+}
+@media screen and (max-width: 400px) {
+  .login-show {
+    width: 400px;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+  }
 }
 
 .nav-show {

@@ -250,7 +250,7 @@ footer {
       }
    }
   }
-
+  
 }
 
 .nav-show-wrapper {
@@ -263,8 +263,8 @@ footer {
     left: 0;
     top: 0;
     background-color: $primaryColor;
-    height: 200%;
-    width: 100%;
+    height: auto;
+    width: 102%;
     z-index: 2;
     transition: 0.9s all ease;
     .nav-images {
@@ -370,6 +370,7 @@ footer {
 }
 
 .menu-button-nav{
+  margin: 20px auto;
   button {
     @include buttonStyle;
   }
@@ -384,6 +385,12 @@ footer {
     opacity: 1;
     top: 20%;
     left: 37%;
+    @include mobile {
+      width: $mobile;
+      top: 20%;
+      left: 5%;
+      width: 90%;
+    }
 }
 
 
